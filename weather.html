@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+Last Name: Auvula
+First Name : Anvesh Reddy
+UTA ID:1001363657
+Project Number:1
+Due Date : October 19, 2016
+-->
+<html lang="en">
+  <head>
+    <title>A Weather Web Application</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="weather.js"></script>
+  </head>
+  <body onload="initialize();">
+    <form>
+       <label>City: <input type="text" id="form-input"/></label>
+       <input type="button" onclick="sendRequest();" value="Display Info"/>
+    </form>
+
+    <table id=t cellpadding = 5 align="center">
+      <tr>
+        <td id="city">&nbsp;</td>
+        <td id="city value">&nbsp;</td>
+      </tr>
+      <tr>
+        <td id="coordinates">&nbsp;</td>
+        <td id="coordinates value">&nbsp;</td>
+      </tr>
+      <tr>
+        <td id="sunset">&nbsp;</td>
+        <td id="sunset value">&nbsp;</td>
+      </tr>
+      <tr>
+        <td id="sunrise">&nbsp;</td>
+        <td id="sunrise value">&nbsp;</td>
+      </tr>
+      <tr>
+        <td id="pressure">&nbsp;</td>
+        <td id="pressure value">&nbsp;</td>
+      </tr>
+      <tr>
+        <td id="humidity">&nbsp;</td>
+        <td id="humidity value">&nbsp;</td>
+      </tr>
+      <tr>
+        <td id="temperature">&nbsp;</td>
+        <td id="temperature value">&nbsp;</td>
+      </tr>
+      <tr>
+        <td id="minimumTemperature">&nbsp;</td>
+        <td id="minimumTemperature value">&nbsp;</td>
+      </tr>
+      <tr>
+        <td id="maximumTemperature">&nbsp;</td>
+        <td id="maximumTemperature value">&nbsp;</td>
+      </tr>
+      <tr>
+        <td id="visibility">&nbsp;</td>
+        <td id="visibility value">&nbsp;</td>
+      </tr>
+      <tr>
+        <td id="clouds">&nbsp;</td>
+        <td id="clouds value">&nbsp;</td>
+      </tr>
+    </table>
+    <p id="suggestion" style="color:red;" align="middle">&nbsp;</div>
+</body>
+</html> 
